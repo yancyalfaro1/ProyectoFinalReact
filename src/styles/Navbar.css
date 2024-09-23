@@ -1,0 +1,70 @@
+/* Estilos generales del navbar */
+nav {
+    display: flex; /* Flexbox para organizar los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Espacio entre el logo y los enlaces */
+    background-color: #1a1a1a; /* Fondo negro */
+    padding: 15px 30px; /* Espaciado interno */
+    box-shadow: 0 2px 4px#1a1a1a; /* Sombra sutil */
+  }
+  
+  /* Logo del navbar */
+  nav img {
+    height: 100px; /* Tamaño del logo */
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  /* Estilos de la lista de navegación */
+  nav ul {
+    list-style: none; /* Sin viñetas */
+    display: flex; /* Flexbox para alinear horizontalmente */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin padding */
+    gap: 20px; /* Espacio entre enlaces */
+  }
+  
+  /* Estilos de los elementos de la lista */
+  nav ul li {
+    display: inline; /* Muestra los elementos en línea */
+  }
+  
+  /* Estilos de los enlaces */
+  nav ul li a {
+    color: #fff; /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1.2rem; /* Tamaño de fuente */
+    padding: 10px 15px; /* Espaciado interno para enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves */
+  }
+  
+  /* Efecto hover en los enlaces */
+  nav ul li a:hover {
+    background-color: #a80037; /* Color vino al hacer hover */
+    color: #fff; /* Mantiene el texto blanco */
+  }
+  
+  /* Responsividad para pantallas pequeñas */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column; /* Apilar elementos en columnas en móviles */
+      align-items: flex-start; /* Alinear a la izquierda */
+    }
+  
+    nav ul {
+      flex-direction: column; /* Apilar enlaces en columnas */
+      align-items: flex-start; /* Alinear a la izquierda */
+      width: 100%; /* Ocupa todo el ancho */
+    }
+  
+    nav ul li {
+      width: 100%; /* Cada enlace ocupa todo el ancho */
+      text-align: center; /* Centrar texto en enlaces */
+    }
+  
+    nav ul li a {
+      padding: 15px 0; /* Espaciado más grande para enlaces apilados */
+    }
+  }
+  

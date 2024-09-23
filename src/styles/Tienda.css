@@ -1,0 +1,25 @@
+.tienda-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 18rem; /* Ancho fijo para las tarjetas */
+    margin: 15px; /* Espaciado entre tarjetas */
+    border: 1px solid #ddd; /* Borde suave */
+    border-radius: 10px; /* Bordes redondeados */
+    transition: transform 0.2s; /* Transición suave para el hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra de tarjeta */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+  }
+  
+  .card-img-top {
+    height: 150px; /* Altura fija para la imagen */
+    object-fit: cover; /* Ajustar imagen para cubrir el área */
+  }
+  

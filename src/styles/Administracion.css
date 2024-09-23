@@ -1,0 +1,31 @@
+.conteiner1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+   align-items: center;
+}
+
+.conteiner input{
+   width: 300px;
+   align-items: center;
+   height: 30px;
+   font-size: 20px;
+   padding-left: 10px;
+   border-radius: 5px;
+   margin: 5px;
+
+}
+.Imagenes{
+   width: 50%;
+   height: 50;
+}
+.btnAgregar{
+
+   align-items: center;
+   height: 10px;
+   font-size: 20px;
+   padding-left: 10px;
+   border-radius: 20px;
+   
+}
